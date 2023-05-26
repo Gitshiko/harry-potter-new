@@ -1,0 +1,79 @@
+body{
+    background-color:black;
+    color:white;
+    font-family: sans-serif;
+    margin: 0;/*these 2 lines to avoid any browser constraints*/
+    padding: 0; 
+}
+
+/*start of the header style*/
+header{
+    background-image: url('/images/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:80vh;
+    width:100vw;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+/*start of the nav bar style*/
+nav {
+    width:100vw;
+    height:25px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li a {
+    color:white;
+    text-decoration: none;
+}
+
+
+/*start of the container style*/
+h3 {
+    text-align: center;
+    padding: 1%;
+}
+
+section.features {
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    height:50vh;
+    contain:content;
+}
+
+section.features img, article.description {
+    width:40%;
+    height:auto;
+}
+
+/*start of the footer style*/
+footer {
+    width:100%;
+    text-align: center;
+    margin: 70px auto;
+    
+}
+
+footer p {
+    padding: 1%;
+    font-size: smaller;
+}
